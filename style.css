@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Catamaran", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  transition: background 500ms ease-in-out, color 750ms ease-in-out;
 }
 
 ul {
@@ -116,12 +119,18 @@ img {
 .dark {
   --bg: var(--gray5);
   --bg-nav: linear-gradient(to right, var(--gray5), var(--gray6));
-   --bg-dropdown: var(--gray6);
+  --bg-dropdown: var(--gray6);
   --text: var(--gray0);
-   --border-color: var(--purple);
+  --border-color: var(--purple);
   --bg-solar: var(--blue);
 }
 
-.solarize {
-
+.solar {
+  --gray0: #fbffd4;
+  --gray1: #f7f8d0;
+  --gray2:#b6f880;
+  --gray3:#5ec72d;
+  --gray4:#3ea565;
+  --gray5:#005368;
+  --gray6:#003d4c;
 }
