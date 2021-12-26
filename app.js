@@ -17,4 +17,13 @@ lightButton.onClick = () => {
 
 solarButton.onClick = () => {
 
+  if  (body.classList.contains('solar')) {
+
+    body.classList.remove('solar');
+
+  } else {
+    body.classList.add('solar');
+  }
+
+
 };
